@@ -143,19 +143,4 @@ public class Utils implements Serializable{
 		return text;
 	}
 
-	//	public static Date formatDate (String date) {
-	//		
-	//		
-	//		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
-	//		Date correctDate = null;
-	//		
-	//		try {
-	//			correctDate = format.parse(splitdate[0]);
-	//		} 
-	//		catch (ParseException e) {
-	//			// TODO Auto-generated catch block
-	//			e.printStackTrace();
-	//		}
-	//		return correctDate;
-	//	}
 }

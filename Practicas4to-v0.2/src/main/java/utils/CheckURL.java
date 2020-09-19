@@ -71,10 +71,8 @@ public class CheckURL {
 
 		URL url = new URL (url_log);
 
-				String protocol = url.getProtocol();
+		String protocol = url.getProtocol();
 		//		String authority = url.getAuthority();
-		//		int port = url.getPort();
-		//		String filename = url.getFile();
 		String  host = url.getHost();
 		String ref = url.getRef();
 		String path = url.getPath();
@@ -118,10 +116,6 @@ public class CheckURL {
 //			listArr.clear();
 //			}
 		}
-
-
-		
-
 
 		return prickedUrl;
 	}

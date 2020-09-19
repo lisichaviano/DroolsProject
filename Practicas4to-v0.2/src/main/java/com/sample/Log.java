@@ -8,7 +8,6 @@ public class Log {
 	private String timeRequest;
 	private int codeStatusHTTP;
 	private String ip;
-	//private String url;
 	private Object urlAndEntropy [];
 	private boolean incurrent;
 	
