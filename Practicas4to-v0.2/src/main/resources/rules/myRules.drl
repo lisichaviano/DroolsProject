@@ -1,0 +1,18 @@
+package com.sample
+import com.sample.Log
+
+
+rule "Verify user for his url and code status HTTP"
+
+when
+        $a: Log( codeStatusHTTP == 200, urlAndEntropy[1]  > 0.3 )  
+         
+then
+ 
+        modify( $a ) { setIncurrent(true) }; //inferencia: Esto modifica los datos y hace que el motor sea consciente de esos cambios para que pueda razonar sobre ellos una vez más
+ //     $a.setIncurrent(true);
+    
+        System.out.println("This is my value: " + $a.isIncurrent() + " from" + $a.getIp());
+
+end
+
