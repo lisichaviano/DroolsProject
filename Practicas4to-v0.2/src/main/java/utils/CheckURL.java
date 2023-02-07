@@ -43,8 +43,6 @@ public class CheckURL {
 	public static ArrayList <String> prickledURL(String url_log) throws MalformedURLException  {
 
 		//*** save into an array descompressed url (host,path and ref)
-
-		//String prickdUrl[] = new String [30];
 		ArrayList <String> prickedUrl = new ArrayList <String> ();
 
 		URL url = new URL (url_log);
@@ -77,22 +75,6 @@ public class CheckURL {
 			prickedUrl.addAll( listArr);  
 			listArr.clear();
 			}
-			
-			//*** query array
-//			if(!query.equals("")) {
-//			String queryElements[] = query.split("[=]"); 
-//			Collections.addAll(listArr, queryElements);
-//			prickedUrl.addAll( listArr);  
-//			listArr.clear();
-//			}
-
-			//*** ref array
-//			if (!ref.equals("")) {
-//			String refElements[] = ref.split("");
-//			Collections.addAll(listArr, refElements);
-//			prickedUrl.addAll( listArr);  
-//			listArr.clear();
-//			}
 		}
 
 		return prickedUrl;

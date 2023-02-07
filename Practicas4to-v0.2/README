@@ -1,0 +1,7 @@
+This project is an example of using Drools as rule engine.
+
+The idea is to pass users logs to the engine and check with the defined rules (with .drl extension)
+or with a DecisionTable (xls format) if the entropy calculated previously for each url from the users logs is 
+more than 0.3.
+
+This entropy number is related to the information theory, in which, for this case, measures the average amount of information that is available about an URL (whether it is forbidded or not), based on the matches it has with respect to a list of forbidded words, useful for identifying banned sites.
