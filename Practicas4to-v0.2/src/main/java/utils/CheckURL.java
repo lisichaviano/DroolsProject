@@ -12,28 +12,6 @@ import java.io.*;
 
 public class CheckURL {
 
-//	public static void main(String[] args) throws MalformedURLException, UnsupportedEncodingException {
-//		//		String url = "www.revolucion.cu";
-//		//		String elements [] = url.split("[.]");
-//		//		for (int i = 0; i < elements.length; i ++) {
-//		//			
-//		//			System.out.print("This is the value : " + elements[i]);
-//		//		}
-//
-//		String url = "http://www.fidel-malo.cu/bunny-xxx.html";
-//		HashMap <String, Double> kw = new HashMap<String, Double>();
-//		kw.put("revolucion",(double)  1/5);
-//		kw.put("fidel", (double) 1/5);
-//		kw.put("bunny", (double)1/5 );
-//		kw.put("xxx", (double) 1/5);
-//		kw.put("puta", (double) 1/5);
-//
-//		ArrayList <String> prickURL = new ArrayList<String>(prickledURL(url));
-////		double entropy = calculateEntropy(prickURL, kw);
-//
-//		System.out.print("This is the entropy: " + entropy);
-//	}
-
 	public  static HashMap <String, Double> dictionaryKeyWords (String keyWords) throws ClassNotFoundException, IOException {
 
 		//*** save into a dictionary keyWords and its occurrence probabilities, from directory file

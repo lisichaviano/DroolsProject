@@ -18,7 +18,7 @@ import java.util.HashMap;
 import com.sample.Log;
 
 
-public class Utils implements Serializable{
+public class Utils implements Serializable {
 
 
 	private static final long serialVersionUID = 1L;
@@ -67,7 +67,7 @@ public class Utils implements Serializable{
 					+"Username"+";"
 					+"URL"+";"
 					+"Entropy"+";"
-					+"Código de estado HTTP"+";"
+					+"Cï¿½digo de estado HTTP"+";"
 					+"Incidente"+";"
 					+ "\n";   
 
